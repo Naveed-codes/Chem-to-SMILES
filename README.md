@@ -24,21 +24,25 @@ This is a command-line Python script that converts a list of **chemical names to
 🚀 Usage
 
 📌 Single Chemical Name
+
 python chemname2smiles.py "glucose"
   
 
 📌 Save SMILES to a File
+
 python chemname2smiles.py "glucose" -o output.txt
 
 
 📌 Save 2D Molecule Image
+
 python chemname2smiles.py "glucose" -i glucose.png
 
 
 📌 Batch Mode (From File)
+
 python chemname2smiles.py chemicals.txt -b -o smiles_output.tsv
 
-Optional multi-threading (e.g., 8 threads):
+📌 Optional multi-threading (e.g., 8 threads):
 
 python3 chem2smiles.py --input chemicals.txt --output smiles.csv --threads 8
 
