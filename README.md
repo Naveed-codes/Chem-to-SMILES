@@ -66,5 +66,7 @@ If a name fails to resolve, it will be marked as "Not Found".
 
 🧑‍💻 Author
 Naveed Hasan
+
 📧 naveedhasan2000@gmail.com
+
 🐙 @Naveed-codes
